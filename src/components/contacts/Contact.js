@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { Consumer } from "../../context";
+import Chuck from "../test/Chuck";
 
 class Contact extends Component {
   state = {
@@ -42,6 +43,7 @@ class Contact extends Component {
                 <ul className="list-group">
                   <li className="list-group-item">Email: {email}</li>
                   <li className="list-group-item">Phone: {phone}</li>
+                  <Chuck />
                 </ul>
               ) : null}
             </div>
