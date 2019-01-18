@@ -27,7 +27,7 @@ class Chuck extends Component {
         Favorite Chuck Norris Joke:
         <br /> {decodeURI(value)}{" "}
         <cite title="Source Title">
-          <a href="http://www.icndb.com" class="badge badge-light">
+          <a href="http://www.icndb.com" className="badge badge-light">
             The Internet Chuck Norris Database
           </a>
         </cite>
